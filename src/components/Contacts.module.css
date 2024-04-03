@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+input {
+    font-family: "Alata", sans-serif;
+
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: #767779a0 0px 0px 5px;
+    width: 100%;
+}
+
+.form input {
+    width: 45%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    color: blue;
+    font-size: 1rem;
+
+}
+
+.form button {
+    width: calc(90% + 20px);
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #AA7BC3;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 0.2s all ease-in-out;
+    font-family: "Alata", sans-serif;
+
+
+}
+
+.form button:hover {
+    cursor: pointer;
+
+    background-color: aqua;
+    box-shadow: #0c2ad436 1px 1px 7px 0px, #0c2ad425 1px 1px 7px 0px;
+}
+
+.alert {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 0.5px solid #eaeaea7d;
+    background-color: #944BBB;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+@media (max-width:500px) {
+    .form input {
+        width: 90%;
+    }
+
+    .form button {
+        width: 90%;
+    }
+}
