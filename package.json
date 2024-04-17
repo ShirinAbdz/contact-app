@@ -1,9 +1,9 @@
 {
   "name": "contact-project",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shirinabdz.github.io",
+  "homepage": "https://shirinabdz.github.io/contact-app/",
 
   "scripts": {
     "dev": "vite",
